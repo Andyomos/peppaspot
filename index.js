@@ -1,3 +1,5 @@
+let myDate = new Date();
+
 
 document.addEventListener('DOMContentLoaded', function() {
 
@@ -9,5 +11,10 @@ document.addEventListener('DOMContentLoaded', function() {
     let paras = document.querySelectorAll('.parallax');
     M.Parallax.init(paras);
 });
+
+
+;
+
+document.getElementById("myDate").innerHTML = myDate.getFullYear();
 
 
