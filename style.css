@@ -1,0 +1,54 @@
+/* My Slide Design Start */
+.imagesContainer {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("bacimg/background.png") center/cover no-repeat;
+}
+
+.images {
+  flex: 0 0 100%;
+  min-height: 65vh;
+  background: url("image/showcaseimg/showcase-0.jpg") center/cover no-repeat;
+  box-shadow: 5px 10px black;
+  border-radius: 15px;
+  position: relative;
+}
+
+.btns {
+  display: inline-block;
+  color: black;
+  background: rgba(255, 255, 255, 0.897);
+  border: 3px solid rgb(255, 1, 1);
+  font-size: 1.5em;
+  padding: 0.5rem;
+  border-radius: 20px;
+  box-shadow: 2px 5px black;
+  outline: none;
+}
+
+.prevBtn {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+
+.nextBtn {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(50%, -50%);
+}
+
+.btns:active {
+  background: rgba(255, 1, 1);
+  box-shadow: 1px 1px rgba(255, 255, 255, 0.897);
+}
+
+.btns:hover {
+  background: rgb(255, 1, 1);
+  color: rgba(255, 255, 255, 0.897);
+}
+/* My Slide Design End */
